@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Animal Crossing: New Horizons",
+        "L_JC" : "0x82FF96",
+        "L_BTN" : "0x0A1E0A",
+        "R_JC" : "0x96F5F5",
+        "R_BTN" : "0x0A1E28"
+    },
+
+    {
+        "name": "Gray",
+        "L_JC" : "0x828282",
+        "L_BTN" : "0x0F0F0F",
+        "R_JC" : "0x828282",
+        "R_BTN" : "0x0F0F0F"
+    },
+
+    {
+        "name": "Neon Blue (L) & Neon Red (R)",
+        "L_JC" : "0x0AB9E6",
+        "L_BTN" : "0x001E1E",
+        "R_JC" : "0x96F5F5",
+        "R_BTN" : "0x0A1E28"
+    },
+
+    {
+        "name": "Neon Red (L) & Neon Blue (R)",
+        "L_JC" : "0x96F5F5",
+        "L_BTN" : "0x0A1E28",
+        "R_JC" : "0x0AB9E6",
+        "R_BTN" : "0x001E1E"
+    },
+
+    {
+        "name": "Neon Blue",
+        "L_JC" : "0x0AB9E6",
+        "L_BTN" : "0x001E1E",
+        "R_JC" : "0x0AB9E6",
+        "R_BTN" : "0x001E1E"
+    },
+
+    {
+        "name": "Neon Red",
+        "L_JC" : "0x96F5F5",
+        "L_BTN" : "0x0A1E28",
+        "R_JC" : "0x96F5F5",
+        "R_BTN" : "0x0A1E28"
+    },
+
+    {
+        "name": "Neon Yellow",
+        "L_JC" : "0xE6FF00",
+        "L_BTN" : "0x142800",
+        "R_JC" : "0xE6FF00",
+        "R_BTN" : "0x142800"
+    },
+
+    {
+        "name": "Neon Pink",
+        "L_JC" : "0xFF3278",
+        "L_BTN" : "0x28001E",
+        "R_JC" : "0xFF3278",
+        "R_BTN" : "0x28001E"
+    },
+
+    {
+        "name": "Neon Green",
+        "L_JC" : "0x1EDC00",
+        "L_BTN" : "0x002800",
+        "R_JC" : "0x1EDC00",
+        "R_BTN" : "0x002800"
+    },
+
+    {
+        "name": "Red",
+        "L_JC" : "0xE10F00",
+        "L_BTN" : "0x280A0A",
+        "R_JC" : "0xE10F00",
+        "R_BTN" : "0x280A0A"
+    },
+
+    {
+        "name": "Blue",
+        "L_JC" : "0x4655F5",
+        "L_BTN" : "0x00000A",
+        "R_JC" : "0x4655F5",
+        "R_BTN" : "0x00000A"
+    },
+
+    {
+        "name": "Pro Black",
+        "L_JC" : "0x323232",
+        "L_BTN" : "0xFFFFF",
+        "R_JC" : "0x323232",
+        "R_BTN" : "0xFFFFF"
+    },
+
+    {
+        "name": "Pokemon Let's Go! Evee (L) and Pikachu (R)",
+        "L_JC" : "0xC88C32",
+        "L_BTN" : "0x281900",
+        "R_JC" : "0xFFDC00",
+        "R_BTN" : "0x322800"
+    },
+
+    {
+        "name": "Nintendo Labo Creators Contest Edition",
+        "L_JC" : "0xD7AA73",
+        "L_BTN" : "0x1E1914",
+        "R_JC" : "0xD7AA73",
+        "R_BTN" : "0x1E1914"
+    },
+
+    {
+        "name": "Custom (True Black)",
+        "L_JC" : "0x000000",
+        "L_BTN" : "0x000000",
+        "R_JC" : "0x000000",
+        "R_BTN" : "0x000000"
+    }
+
+
+]
