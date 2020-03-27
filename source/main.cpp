@@ -38,10 +38,10 @@ int setColor(std::vector<int> colors){
 
 int main(int argc, char* argv[])
 {
-    //TODO Create Init function
+
     consoleInit(NULL);
     hiddbgInitialize();
-	hidsysInitialize();
+    hidsysInitialize();
 
     int currentItem = 0;
 
@@ -137,7 +137,7 @@ int main(int argc, char* argv[])
     }
 
     hiddbgExit();
-	hidsysExit();
+    hidsysExit();
     consoleExit(NULL);
     return 0;
 }
