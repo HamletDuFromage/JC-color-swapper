@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
 
     int currentItem = 0;
 
-    std::ifstream profilesFile("sdmc:/switch/JC/profiles.json");
+    std::ifstream profilesFile("sdmc:/switch/JC-color-swapper/profiles.json");
     json profilesJson;
 
     if (!profilesFile.fail()) {

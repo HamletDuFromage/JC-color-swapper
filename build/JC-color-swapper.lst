@@ -2225,213 +2225,213 @@
 0000000000094614 0000000000000100 T strrchr
 0000000000094718 T _fini
 0000000000095000 R __rodata_start
-0000000000098038 000000000000001d V typeinfo name for nlohmann::detail::exception
-0000000000098058 000000000000000d V typeinfo name for std::exception
-0000000000098068 0000000000000020 V typeinfo name for nlohmann::detail::parse_error
-0000000000098088 000000000000001f V typeinfo name for nlohmann::detail::type_error
-00000000000980a8 0000000000000020 V typeinfo name for nlohmann::detail::other_error
-00000000000980c8 0000000000000021 V typeinfo name for nlohmann::detail::out_of_range
-00000000000980f0 0000000000000025 V typeinfo name for nlohmann::detail::invalid_iterator
-0000000000098118 0000000000000010 V std::_Sp_make_shared_tag::_S_ti()::__tag
-0000000000098128 0000000000000001 V std::piecewise_construct
-0000000000098130 0000000000000010 r C.103.212325
-0000000000098188 0000000000000014 r CSWTCH.525
-00000000000982a8 0000000000000030 r colorTable
-00000000000982d8 R default_font_bin
-000000000009a2d8 R default_font_bin_end
-000000000009a2d8 R default_font_bin_size
-000000000009a2e0 0000000000000038 r g_nvColorFmtTable
-000000000009a348 0000000000000020 r error_table
-000000000009a390 0000000000000023 r g_bq_InterfaceDescriptor
-000000000009a3c8 0000000000000022 V typeinfo name for __cxxabiv1::__class_type_info
-000000000009a440 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_lock_error
-000000000009a468 0000000000000029 V typeinfo name for __gnu_cxx::__concurrence_unlock_error
-000000000009a4b0 0000000000000012 V typeinfo name for std::bad_exception
-000000000009a4c8 0000000000000020 V typeinfo name for __cxxabiv1::__forced_unwind
-000000000009a4e8 0000000000000024 V typeinfo name for __cxxabiv1::__foreign_exception
-000000000009a510 0000000000000025 V typeinfo name for __cxxabiv1::__si_class_type_info
-000000000009a538 000000000000000d V typeinfo name for std::type_info
-000000000009a548 0000000000000012 V typeinfo name for std::locale::facet
-000000000009a560 0000000000000002 R std::locale::facet::_S_c_name
-000000000009a568 000000000000001e V typeinfo name for std::__moneypunct_cache<char, true>
-000000000009a588 000000000000001e V typeinfo name for std::__moneypunct_cache<char, false>
-000000000009a5a8 000000000000001e V typeinfo name for std::__moneypunct_cache<wchar_t, true>
-000000000009a5c8 000000000000001e V typeinfo name for std::__moneypunct_cache<wchar_t, false>
-000000000009a618 0000000000000018 V typeinfo name for std::__numpunct_cache<char>
-000000000009a630 0000000000000018 V typeinfo name for std::__numpunct_cache<wchar_t>
-000000000009a648 0000000000000010 V typeinfo name for std::logic_error
-000000000009a658 0000000000000015 V typeinfo name for std::invalid_argument
-000000000009a670 0000000000000011 V typeinfo name for std::length_error
-000000000009a688 0000000000000011 V typeinfo name for std::out_of_range
-000000000009a6a0 0000000000000012 V typeinfo name for std::runtime_error
-000000000009a6b8 0000000000000011 V typeinfo name for std::codecvt_base
-000000000009a6d0 000000000000002d V typeinfo name for std::__codecvt_abstract_base<char16_t, char, _mbstate_t>
-000000000009a700 000000000000001c V typeinfo name for std::codecvt<char16_t, char, _mbstate_t>
-000000000009a720 000000000000002d V typeinfo name for std::__codecvt_abstract_base<char32_t, char, _mbstate_t>
-000000000009a750 000000000000001c V typeinfo name for std::codecvt<char32_t, char, _mbstate_t>
-000000000009a770 000000000000002e V _ZTSSt23__codecvt_abstract_baseIDsDu10_mbstate_tE
-000000000009a7a0 000000000000001d V _ZTSSt7codecvtIDsDu10_mbstate_tE
-000000000009a7c0 000000000000002e V _ZTSSt23__codecvt_abstract_baseIDiDu10_mbstate_tE
-000000000009a7f0 000000000000001d V _ZTSSt7codecvtIDiDu10_mbstate_tE
-000000000009a810 0000000000000003 r std::(anonymous namespace)::utf8_bom
-000000000009a868 0000000000000019 V typeinfo name for std::locale::facet::__shim
-000000000009a888 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<char>
-000000000009a8c0 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<wchar_t>
-000000000009a8f8 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<char>
-000000000009a930 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<wchar_t>
-000000000009a968 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<char>
-000000000009a9a0 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<wchar_t>
-000000000009a9d8 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<char>
-000000000009aa10 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<wchar_t>
-000000000009aa48 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<char>
-000000000009aa80 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<wchar_t>
-000000000009aab8 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<char>
-000000000009aaf0 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<wchar_t>
-000000000009ab28 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, false>
-000000000009ab68 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, true>
-000000000009aba8 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, false>
-000000000009abe8 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, true>
-000000000009ad10 000000000000000f V typeinfo name for std::ctype_base
-000000000009ad20 000000000000000c V typeinfo name for std::ctype<char>
-000000000009ad30 000000000000000c V typeinfo name for std::ctype<wchar_t>
-000000000009ae58 000000000000000f V typeinfo name for std::money_base
-000000000009ae68 0000000000000012 V typeinfo name for std::messages_base
-000000000009ae80 000000000000000d V typeinfo name for std::time_base
-000000000009ae90 0000000000000018 V typeinfo name for std::__cxx11::collate<char>
-000000000009aea8 0000000000000019 V typeinfo name for std::__cxx11::numpunct<char>
-000000000009aec8 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<char, true>
-000000000009aee8 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<char, false>
-000000000009af08 0000000000000019 V typeinfo name for std::__cxx11::messages<char>
-000000000009af28 0000000000000046 V typeinfo name for std::__cxx11::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
-000000000009af70 0000000000000046 V typeinfo name for std::__cxx11::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
-000000000009afb8 0000000000000045 V typeinfo name for std::__cxx11::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
-000000000009b000 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<char>
-000000000009b038 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<wchar_t>
-000000000009b070 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<char>
-000000000009b0a8 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<wchar_t>
-000000000009b0e0 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<char>
-000000000009b118 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<wchar_t>
-000000000009b150 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<char>
-000000000009b188 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<wchar_t>
-000000000009b1c0 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<char>
-000000000009b1f8 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<wchar_t>
-000000000009b230 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<char>
-000000000009b268 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<wchar_t>
-000000000009b2a0 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, false>
-000000000009b2e0 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, true>
-000000000009b320 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, false>
-000000000009b360 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, true>
-000000000009b410 0000000000000018 V typeinfo name for std::__cxx11::collate<wchar_t>
-000000000009b428 0000000000000019 V typeinfo name for std::__cxx11::numpunct<wchar_t>
-000000000009b448 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<wchar_t, true>
-000000000009b468 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<wchar_t, false>
-000000000009b488 0000000000000019 V typeinfo name for std::__cxx11::messages<wchar_t>
-000000000009b4a8 0000000000000046 V typeinfo name for std::__cxx11::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009b4f0 0000000000000046 V typeinfo name for std::__cxx11::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009b538 0000000000000045 V typeinfo name for std::__cxx11::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009b580 0000000000000036 V typeinfo name for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
-000000000009b5b8 0000000000000036 V typeinfo name for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >
-000000000009b738 0000000000000027 V typeinfo name for std::basic_filebuf<char, std::char_traits<char> >
-000000000009b760 0000000000000028 V typeinfo name for std::basic_ifstream<char, std::char_traits<char> >
-000000000009b7a0 0000000000000016 V typeinfo name for std::bad_function_call
-000000000009b7d0 0000000000000022 V typeinfo name for std::basic_ios<char, std::char_traits<char> >
-000000000009b7f8 0000000000000022 V typeinfo name for std::basic_ios<wchar_t, std::char_traits<wchar_t> >
-000000000009b820 000000000000000c V typeinfo name for std::ios_base
-000000000009b830 0000000000000003 V typeinfo name for std::istream
-000000000009b838 0000000000000027 V typeinfo name for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
-000000000009b8d8 000000000000000e V typeinfo name for std::collate<char>
-000000000009b8e8 000000000000000f V typeinfo name for std::numpunct<char>
-000000000009b8f8 000000000000003a V typeinfo name for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
-000000000009b938 000000000000003a V typeinfo name for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
-000000000009b978 0000000000000019 V typeinfo name for std::__timepunct_cache<char>
-000000000009b998 0000000000000013 V typeinfo name for std::__timepunct<char>
-000000000009b9b0 0000000000000016 V typeinfo name for std::moneypunct<char, true>
-000000000009b9c8 0000000000000016 V typeinfo name for std::moneypunct<char, false>
-000000000009b9e0 000000000000000f V typeinfo name for std::messages<char>
-000000000009b9f0 000000000000002c V typeinfo name for std::__codecvt_abstract_base<char, char, _mbstate_t>
-000000000009ba20 000000000000003c V typeinfo name for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
-000000000009ba60 000000000000003c V typeinfo name for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
-000000000009baa0 000000000000003b V typeinfo name for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
-000000000009bae0 000000000000003b V typeinfo name for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
-000000000009bb20 0000000000000003 V typeinfo name for std::ostream
-000000000009bb28 0000000000000027 V typeinfo name for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
-000000000009bb50 0000000000000018 V typeinfo name for std::_Sp_make_shared_tag
-000000000009bbe8 0000000000000029 V typeinfo name for std::basic_streambuf<char, std::char_traits<char> >
-000000000009bc18 0000000000000029 V typeinfo name for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >
-000000000009bcf0 000000000000000e V typeinfo name for std::collate<wchar_t>
-000000000009bd00 000000000000001d V typeinfo name for std::__ctype_abstract_base<wchar_t>
-000000000009bd20 000000000000000f V typeinfo name for std::numpunct<wchar_t>
-000000000009bd30 000000000000003a V typeinfo name for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009bd70 000000000000003a V typeinfo name for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009bdb0 0000000000000019 V typeinfo name for std::__timepunct_cache<wchar_t>
-000000000009bdd0 0000000000000013 V typeinfo name for std::__timepunct<wchar_t>
-000000000009bde8 0000000000000016 V typeinfo name for std::moneypunct<wchar_t, true>
-000000000009be00 0000000000000016 V typeinfo name for std::moneypunct<wchar_t, false>
-000000000009be18 000000000000000f V typeinfo name for std::messages<wchar_t>
-000000000009be28 000000000000002c V typeinfo name for std::__codecvt_abstract_base<wchar_t, char, _mbstate_t>
-000000000009be58 000000000000003c V typeinfo name for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009be98 000000000000003c V typeinfo name for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009bed8 000000000000003b V typeinfo name for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009bf18 000000000000003b V typeinfo name for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
-000000000009bf68 000000000000000d V typeinfo name for std::bad_alloc
-000000000009bf88 000000000000000c V typeinfo name for std::bad_cast
-000000000009bff0 000000000000002c V typeinfo name for __gnu_cxx::__concurrence_broadcast_error
-000000000009c020 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_wait_error
-000000000009c048 0000000000000026 V typeinfo name for __cxxabiv1::__vmi_class_type_info
-000000000009c160 000000000000001b V typeinfo name for std::codecvt<char, char, _mbstate_t>
-000000000009c180 000000000000001b V typeinfo name for std::codecvt<wchar_t, char, _mbstate_t>
-000000000009c338 0000000000000004 R std::money_base::_S_default_pattern
-000000000009c8d8 000000000000001d V typeinfo name for std::ios_base::failure[abi:cxx11]
-000000000009c8f8 0000000000000012 V typeinfo name for std::__ios_failure
-000000000009c910 0000000000000018 V typeinfo name for std::__iosfail_type_info
-000000000009c928 0000000000000025 r typeinfo name for (anonymous namespace)::io_error_category
-000000000009c960 0000000000000019 V typeinfo name for std::_V2::error_category
-000000000009c980 0000000000000011 V typeinfo name for std::system_error
-000000000009c998 0000000000000029 r typeinfo name for (anonymous namespace)::system_error_category
-000000000009c9c8 000000000000002a r typeinfo name for (anonymous namespace)::generic_error_category
-000000000009ca18 0000000000000019 V typeinfo name for std::bad_array_new_length
-000000000009ca38 0000000000000016 V typeinfo name for std::ios_base::failure
-000000000009ccc0 0000000000000008 r terminator.9654
-000000000009cd08 0000000000000101 R _ctype_
-000000000009cff0 0000000000000048 r JIS_action_table
-000000000009d038 0000000000000048 r JIS_state_table
-000000000009da98 0000000000000014 r fpi.5521
-000000000009dab0 0000000000000014 r fpinan.5557
-000000000009dac8 0000000000000028 r tinytens
-000000000009dc78 0000000000000010 r blanks.6692
-000000000009dc88 0000000000000010 r zeroes.6693
-000000000009dd88 0000000000000022 r basefix.6725
-000000000009df98 0000000000000010 r blanks.6675
-000000000009dfa8 0000000000000010 r zeroes.6676
-000000000009e108 0000000000000010 r blanks.6707
-000000000009e118 0000000000000010 r zeroes.6708
-000000000009e3a8 0000000000000100 R __hexdig
-000000000009e4a8 00000000000000bc r a1
-000000000009e568 00000000000000bc r a2
-000000000009e628 000000000000005b r a3
-000000000009e688 0000000000000070 r a6
-000000000009e6f8 00000000000000a2 r a7
-000000000009e7a0 0000000000000040 r a8
-000000000009e7e0 000000000000172a r b02cf
-000000000009ff10 0000000000001a7c r d02f4
-00000000000a1990 0000000000000028 R __mprec_bigtens
-00000000000a19b8 00000000000000c8 R __mprec_tens
-00000000000a1a80 000000000000000c r p05.5441
-00000000000a1bd8 000000000000006c R __action_table
-00000000000a1c48 0000000000000100 R __chclass
-00000000000a1d48 000000000000006c R __state_table
-00000000000a1db8 0000000000000010 r blanks.6671
-00000000000a1dc8 0000000000000010 r zeroes.6672
-00000000000a1e58 0000000000000022 r basefix.6227
-00000000000a1e80 000000000000309c r categories
-00000000000a4f20 0000000000000060 R __month_lengths
-00000000000a5178 0000000000000040 r blanks.6475
-00000000000a51b8 0000000000000040 r zeroes.6476
-00000000000a51f8 r __EH_FRAME_BEGIN__
-00000000000a51f8 R __eh_frame_hdr_end
-00000000000a51f8 R __eh_frame_hdr_start
-00000000000ba5a8 r __FRAME_END__
-00000000000bd0a8 a _DYNAMIC
+0000000000098048 000000000000001d V typeinfo name for nlohmann::detail::exception
+0000000000098068 000000000000000d V typeinfo name for std::exception
+0000000000098078 0000000000000020 V typeinfo name for nlohmann::detail::parse_error
+0000000000098098 000000000000001f V typeinfo name for nlohmann::detail::type_error
+00000000000980b8 0000000000000020 V typeinfo name for nlohmann::detail::other_error
+00000000000980d8 0000000000000021 V typeinfo name for nlohmann::detail::out_of_range
+0000000000098100 0000000000000025 V typeinfo name for nlohmann::detail::invalid_iterator
+0000000000098128 0000000000000010 V std::_Sp_make_shared_tag::_S_ti()::__tag
+0000000000098138 0000000000000001 V std::piecewise_construct
+0000000000098140 0000000000000010 r C.103.212325
+0000000000098198 0000000000000014 r CSWTCH.525
+00000000000982b8 0000000000000030 r colorTable
+00000000000982e8 R default_font_bin
+000000000009a2e8 R default_font_bin_end
+000000000009a2e8 R default_font_bin_size
+000000000009a2f0 0000000000000038 r g_nvColorFmtTable
+000000000009a358 0000000000000020 r error_table
+000000000009a3a0 0000000000000023 r g_bq_InterfaceDescriptor
+000000000009a3d8 0000000000000022 V typeinfo name for __cxxabiv1::__class_type_info
+000000000009a450 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_lock_error
+000000000009a478 0000000000000029 V typeinfo name for __gnu_cxx::__concurrence_unlock_error
+000000000009a4c0 0000000000000012 V typeinfo name for std::bad_exception
+000000000009a4d8 0000000000000020 V typeinfo name for __cxxabiv1::__forced_unwind
+000000000009a4f8 0000000000000024 V typeinfo name for __cxxabiv1::__foreign_exception
+000000000009a520 0000000000000025 V typeinfo name for __cxxabiv1::__si_class_type_info
+000000000009a548 000000000000000d V typeinfo name for std::type_info
+000000000009a558 0000000000000012 V typeinfo name for std::locale::facet
+000000000009a570 0000000000000002 R std::locale::facet::_S_c_name
+000000000009a578 000000000000001e V typeinfo name for std::__moneypunct_cache<char, true>
+000000000009a598 000000000000001e V typeinfo name for std::__moneypunct_cache<char, false>
+000000000009a5b8 000000000000001e V typeinfo name for std::__moneypunct_cache<wchar_t, true>
+000000000009a5d8 000000000000001e V typeinfo name for std::__moneypunct_cache<wchar_t, false>
+000000000009a628 0000000000000018 V typeinfo name for std::__numpunct_cache<char>
+000000000009a640 0000000000000018 V typeinfo name for std::__numpunct_cache<wchar_t>
+000000000009a658 0000000000000010 V typeinfo name for std::logic_error
+000000000009a668 0000000000000015 V typeinfo name for std::invalid_argument
+000000000009a680 0000000000000011 V typeinfo name for std::length_error
+000000000009a698 0000000000000011 V typeinfo name for std::out_of_range
+000000000009a6b0 0000000000000012 V typeinfo name for std::runtime_error
+000000000009a6c8 0000000000000011 V typeinfo name for std::codecvt_base
+000000000009a6e0 000000000000002d V typeinfo name for std::__codecvt_abstract_base<char16_t, char, _mbstate_t>
+000000000009a710 000000000000001c V typeinfo name for std::codecvt<char16_t, char, _mbstate_t>
+000000000009a730 000000000000002d V typeinfo name for std::__codecvt_abstract_base<char32_t, char, _mbstate_t>
+000000000009a760 000000000000001c V typeinfo name for std::codecvt<char32_t, char, _mbstate_t>
+000000000009a780 000000000000002e V _ZTSSt23__codecvt_abstract_baseIDsDu10_mbstate_tE
+000000000009a7b0 000000000000001d V _ZTSSt7codecvtIDsDu10_mbstate_tE
+000000000009a7d0 000000000000002e V _ZTSSt23__codecvt_abstract_baseIDiDu10_mbstate_tE
+000000000009a800 000000000000001d V _ZTSSt7codecvtIDiDu10_mbstate_tE
+000000000009a820 0000000000000003 r std::(anonymous namespace)::utf8_bom
+000000000009a878 0000000000000019 V typeinfo name for std::locale::facet::__shim
+000000000009a898 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<char>
+000000000009a8d0 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<wchar_t>
+000000000009a908 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<char>
+000000000009a940 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<wchar_t>
+000000000009a978 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<char>
+000000000009a9b0 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<wchar_t>
+000000000009a9e8 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<char>
+000000000009aa20 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<wchar_t>
+000000000009aa58 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<char>
+000000000009aa90 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<wchar_t>
+000000000009aac8 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<char>
+000000000009ab00 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<wchar_t>
+000000000009ab38 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, false>
+000000000009ab78 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, true>
+000000000009abb8 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, false>
+000000000009abf8 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, true>
+000000000009ad20 000000000000000f V typeinfo name for std::ctype_base
+000000000009ad30 000000000000000c V typeinfo name for std::ctype<char>
+000000000009ad40 000000000000000c V typeinfo name for std::ctype<wchar_t>
+000000000009ae68 000000000000000f V typeinfo name for std::money_base
+000000000009ae78 0000000000000012 V typeinfo name for std::messages_base
+000000000009ae90 000000000000000d V typeinfo name for std::time_base
+000000000009aea0 0000000000000018 V typeinfo name for std::__cxx11::collate<char>
+000000000009aeb8 0000000000000019 V typeinfo name for std::__cxx11::numpunct<char>
+000000000009aed8 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<char, true>
+000000000009aef8 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<char, false>
+000000000009af18 0000000000000019 V typeinfo name for std::__cxx11::messages<char>
+000000000009af38 0000000000000046 V typeinfo name for std::__cxx11::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+000000000009af80 0000000000000046 V typeinfo name for std::__cxx11::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+000000000009afc8 0000000000000045 V typeinfo name for std::__cxx11::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+000000000009b010 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<char>
+000000000009b048 0000000000000034 r typeinfo name for std::__facet_shims::(anonymous namespace)::collate_shim<wchar_t>
+000000000009b080 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<char>
+000000000009b0b8 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::messages_shim<wchar_t>
+000000000009b0f0 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<char>
+000000000009b128 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::numpunct_shim<wchar_t>
+000000000009b160 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<char>
+000000000009b198 0000000000000035 r typeinfo name for std::__facet_shims::(anonymous namespace)::time_get_shim<wchar_t>
+000000000009b1d0 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<char>
+000000000009b208 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_get_shim<wchar_t>
+000000000009b240 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<char>
+000000000009b278 0000000000000036 r typeinfo name for std::__facet_shims::(anonymous namespace)::money_put_shim<wchar_t>
+000000000009b2b0 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, false>
+000000000009b2f0 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<char, true>
+000000000009b330 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, false>
+000000000009b370 000000000000003b r typeinfo name for std::__facet_shims::(anonymous namespace)::moneypunct_shim<wchar_t, true>
+000000000009b420 0000000000000018 V typeinfo name for std::__cxx11::collate<wchar_t>
+000000000009b438 0000000000000019 V typeinfo name for std::__cxx11::numpunct<wchar_t>
+000000000009b458 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<wchar_t, true>
+000000000009b478 0000000000000020 V typeinfo name for std::__cxx11::moneypunct<wchar_t, false>
+000000000009b498 0000000000000019 V typeinfo name for std::__cxx11::messages<wchar_t>
+000000000009b4b8 0000000000000046 V typeinfo name for std::__cxx11::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009b500 0000000000000046 V typeinfo name for std::__cxx11::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009b548 0000000000000045 V typeinfo name for std::__cxx11::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009b590 0000000000000036 V typeinfo name for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >
+000000000009b5c8 0000000000000036 V typeinfo name for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >
+000000000009b748 0000000000000027 V typeinfo name for std::basic_filebuf<char, std::char_traits<char> >
+000000000009b770 0000000000000028 V typeinfo name for std::basic_ifstream<char, std::char_traits<char> >
+000000000009b7b0 0000000000000016 V typeinfo name for std::bad_function_call
+000000000009b7e0 0000000000000022 V typeinfo name for std::basic_ios<char, std::char_traits<char> >
+000000000009b808 0000000000000022 V typeinfo name for std::basic_ios<wchar_t, std::char_traits<wchar_t> >
+000000000009b830 000000000000000c V typeinfo name for std::ios_base
+000000000009b840 0000000000000003 V typeinfo name for std::istream
+000000000009b848 0000000000000027 V typeinfo name for std::basic_istream<wchar_t, std::char_traits<wchar_t> >
+000000000009b8e8 000000000000000e V typeinfo name for std::collate<char>
+000000000009b8f8 000000000000000f V typeinfo name for std::numpunct<char>
+000000000009b908 000000000000003a V typeinfo name for std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+000000000009b948 000000000000003a V typeinfo name for std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+000000000009b988 0000000000000019 V typeinfo name for std::__timepunct_cache<char>
+000000000009b9a8 0000000000000013 V typeinfo name for std::__timepunct<char>
+000000000009b9c0 0000000000000016 V typeinfo name for std::moneypunct<char, true>
+000000000009b9d8 0000000000000016 V typeinfo name for std::moneypunct<char, false>
+000000000009b9f0 000000000000000f V typeinfo name for std::messages<char>
+000000000009ba00 000000000000002c V typeinfo name for std::__codecvt_abstract_base<char, char, _mbstate_t>
+000000000009ba30 000000000000003c V typeinfo name for std::money_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+000000000009ba70 000000000000003c V typeinfo name for std::money_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+000000000009bab0 000000000000003b V typeinfo name for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >
+000000000009baf0 000000000000003b V typeinfo name for std::time_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >
+000000000009bb30 0000000000000003 V typeinfo name for std::ostream
+000000000009bb38 0000000000000027 V typeinfo name for std::basic_ostream<wchar_t, std::char_traits<wchar_t> >
+000000000009bb60 0000000000000018 V typeinfo name for std::_Sp_make_shared_tag
+000000000009bbf8 0000000000000029 V typeinfo name for std::basic_streambuf<char, std::char_traits<char> >
+000000000009bc28 0000000000000029 V typeinfo name for std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >
+000000000009bd00 000000000000000e V typeinfo name for std::collate<wchar_t>
+000000000009bd10 000000000000001d V typeinfo name for std::__ctype_abstract_base<wchar_t>
+000000000009bd30 000000000000000f V typeinfo name for std::numpunct<wchar_t>
+000000000009bd40 000000000000003a V typeinfo name for std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bd80 000000000000003a V typeinfo name for std::num_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bdc0 0000000000000019 V typeinfo name for std::__timepunct_cache<wchar_t>
+000000000009bde0 0000000000000013 V typeinfo name for std::__timepunct<wchar_t>
+000000000009bdf8 0000000000000016 V typeinfo name for std::moneypunct<wchar_t, true>
+000000000009be10 0000000000000016 V typeinfo name for std::moneypunct<wchar_t, false>
+000000000009be28 000000000000000f V typeinfo name for std::messages<wchar_t>
+000000000009be38 000000000000002c V typeinfo name for std::__codecvt_abstract_base<wchar_t, char, _mbstate_t>
+000000000009be68 000000000000003c V typeinfo name for std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bea8 000000000000003c V typeinfo name for std::money_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bee8 000000000000003b V typeinfo name for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bf28 000000000000003b V typeinfo name for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >
+000000000009bf78 000000000000000d V typeinfo name for std::bad_alloc
+000000000009bf98 000000000000000c V typeinfo name for std::bad_cast
+000000000009c000 000000000000002c V typeinfo name for __gnu_cxx::__concurrence_broadcast_error
+000000000009c030 0000000000000027 V typeinfo name for __gnu_cxx::__concurrence_wait_error
+000000000009c058 0000000000000026 V typeinfo name for __cxxabiv1::__vmi_class_type_info
+000000000009c170 000000000000001b V typeinfo name for std::codecvt<char, char, _mbstate_t>
+000000000009c190 000000000000001b V typeinfo name for std::codecvt<wchar_t, char, _mbstate_t>
+000000000009c348 0000000000000004 R std::money_base::_S_default_pattern
+000000000009c8e8 000000000000001d V typeinfo name for std::ios_base::failure[abi:cxx11]
+000000000009c908 0000000000000012 V typeinfo name for std::__ios_failure
+000000000009c920 0000000000000018 V typeinfo name for std::__iosfail_type_info
+000000000009c938 0000000000000025 r typeinfo name for (anonymous namespace)::io_error_category
+000000000009c970 0000000000000019 V typeinfo name for std::_V2::error_category
+000000000009c990 0000000000000011 V typeinfo name for std::system_error
+000000000009c9a8 0000000000000029 r typeinfo name for (anonymous namespace)::system_error_category
+000000000009c9d8 000000000000002a r typeinfo name for (anonymous namespace)::generic_error_category
+000000000009ca28 0000000000000019 V typeinfo name for std::bad_array_new_length
+000000000009ca48 0000000000000016 V typeinfo name for std::ios_base::failure
+000000000009ccd0 0000000000000008 r terminator.9654
+000000000009cd18 0000000000000101 R _ctype_
+000000000009d000 0000000000000048 r JIS_action_table
+000000000009d048 0000000000000048 r JIS_state_table
+000000000009daa8 0000000000000014 r fpi.5521
+000000000009dac0 0000000000000014 r fpinan.5557
+000000000009dad8 0000000000000028 r tinytens
+000000000009dc88 0000000000000010 r blanks.6692
+000000000009dc98 0000000000000010 r zeroes.6693
+000000000009dd98 0000000000000022 r basefix.6725
+000000000009dfa8 0000000000000010 r blanks.6675
+000000000009dfb8 0000000000000010 r zeroes.6676
+000000000009e118 0000000000000010 r blanks.6707
+000000000009e128 0000000000000010 r zeroes.6708
+000000000009e3b8 0000000000000100 R __hexdig
+000000000009e4b8 00000000000000bc r a1
+000000000009e578 00000000000000bc r a2
+000000000009e638 000000000000005b r a3
+000000000009e698 0000000000000070 r a6
+000000000009e708 00000000000000a2 r a7
+000000000009e7b0 0000000000000040 r a8
+000000000009e7f0 000000000000172a r b02cf
+000000000009ff20 0000000000001a7c r d02f4
+00000000000a19a0 0000000000000028 R __mprec_bigtens
+00000000000a19c8 00000000000000c8 R __mprec_tens
+00000000000a1a90 000000000000000c r p05.5441
+00000000000a1be8 000000000000006c R __action_table
+00000000000a1c58 0000000000000100 R __chclass
+00000000000a1d58 000000000000006c R __state_table
+00000000000a1dc8 0000000000000010 r blanks.6671
+00000000000a1dd8 0000000000000010 r zeroes.6672
+00000000000a1e68 0000000000000022 r basefix.6227
+00000000000a1e90 000000000000309c r categories
+00000000000a4f30 0000000000000060 R __month_lengths
+00000000000a5188 0000000000000040 r blanks.6475
+00000000000a51c8 0000000000000040 r zeroes.6476
+00000000000a5208 r __EH_FRAME_BEGIN__
+00000000000a5208 R __eh_frame_hdr_end
+00000000000a5208 R __eh_frame_hdr_start
+00000000000ba5b8 r __FRAME_END__
+00000000000bd0b8 a _DYNAMIC
 00000000000cc000 R __data_start
 00000000000cc000 t __frame_dummy_init_array_entry
 00000000000cc000 T __init_array_start
