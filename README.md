@@ -1,3 +1,7 @@
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/61667930/77807590-97a11180-7088-11ea-9cc3-5c7baa0781bb.jpg"\>
+</p>
+
 # JC-color-swapper
 A Nintendo Switch homebrew app to change the color of the Joy-Con controllers. Comes bundled with default themes but you can easily add your own.
 
