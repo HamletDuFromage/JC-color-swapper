@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
         if(currentScreen == 0){
 
             std::cout << "*** Joy-Con color swapper v" << VERSION << " - By HamletDuFromage" << std::endl;
-            std::cout << "* Select your desired profile with [UP]/[DOWN]|[LEFT]/[RIGHT]. Confirm with [A]. \n* Press [B] to quit\n\n" << std::endl;
+            std::cout << "* Select your desired profile with [UP]/[DOWN]|[LEFT]/[RIGHT] \n* Confirm with [A] \n* Press [B] to quit\n\n" << std::endl;
 
 
             res = 0; 
