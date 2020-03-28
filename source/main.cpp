@@ -10,6 +10,7 @@
 using json = nlohmann::json;
 
 #define VERSION "1.0.1"
+#define ENTRIESPERPAGE 30
 
 
 int hexToRGB(std::string hex){
@@ -46,7 +47,9 @@ int main(int argc, char* argv[])
     hiddbgInitialize();
     hidsysInitialize();
 
+    int currentScreen = 0;
     int currentItem = 0;
+    int currentPage = 0;
 
     std::ifstream profilesFile("sdmc:/switch/JC-color-swapper/profiles.json");
     json profilesJson;
@@ -71,9 +74,9 @@ int main(int argc, char* argv[])
     }
 
     int nbItems = colorProfiles.size();
-    if (nbItems > 33) nbItems = 33;
+    //if (nbItems > 33) nbItems = 33;
+    int nbPages = (nbItems/ENTRIESPERPAGE) + 1;
 
-    int currentScreen = 0;
     int res = 0;
 
     while (appletMainLoop())
@@ -88,25 +91,32 @@ int main(int argc, char* argv[])
             std::cout << "*** Joy-Con color swapper v" << VERSION << " - By HamletDuFromage" << std::endl;
             std::cout << "* Select your desired profile with [UP]/[DOWN], and confirm with [A]. \n* Press [B] to quit\n\n" << std::endl;
 
+
             res = 0; 
 
-            for (size_t i = 0; i < (size_t) nbItems; i++){
+            for (size_t i = currentPage * ENTRIESPERPAGE; i < (size_t) std::min(nbItems, ENTRIESPERPAGE*(currentPage+1)); i++){
                 if ((int) i == currentItem) std::cout << "> " << colorProfiles[i] << std::endl;
                 else std::cout << colorProfiles[i] << std::endl;
             }
 
-            //if (kDown & KEY_DOWN){currentItem = std::max(currentItem + 1, nbItems - 1);}
-            if ((kDown & KEY_DOWN) && currentItem < nbItems - 1){currentItem += 1;}
-            if ((kDown & KEY_UP) && currentItem > 0){currentItem -= 1;}
+            std::cout << "\n\t\t\t\t\t\t\t(" << currentPage + 1 << "/" << nbPages << ")" <<std::endl;
+
+            if ((kDown & KEY_DOWN) && currentItem < nbItems - 1) currentItem += 1;
+            if ((kDown & KEY_UP) && currentItem > 0) currentItem -= 1;
+            if ((kDown & KEY_RIGHT) && currentPage < nbPages - 1) {
+                currentPage += 1;
+                currentItem = std::min(currentItem + ENTRIESPERPAGE, nbItems - 1);
+            }
+            if ((kDown & KEY_LEFT) && currentPage > 0) {
+                currentPage -= 1;
+                currentItem -= ENTRIESPERPAGE;
+            }
 
             if (kDown & KEY_A){
                 // SET COLOR
                 currentScreen = 1;
             }
-            //if (kDown & KEY_PLUS){
-                //BACKUP
-            //    currentScreen = 2;
-            //}
+
             if (kDown & KEY_B)
                 break;
         }
