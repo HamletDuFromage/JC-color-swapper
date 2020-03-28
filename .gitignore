@@ -1,6 +1,6 @@
 .vscode
-build\
-JC-color-swapper\
+build
+JC-color-swapper
 *.nro
 *.nacp
 *.elf
