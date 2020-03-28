@@ -9,7 +9,7 @@
 
 using json = nlohmann::json;
 
-#define VERSION "1.0"
+#define VERSION "1.0.1"
 
 
 int hexToRGB(std::string hex){
