@@ -13,7 +13,10 @@ using json = nlohmann::json;
 
 
 int hexToRGB(std::string hex){
-    return std::stoi(hex, 0, 16);
+    std::string R = hex.substr(0, 2);
+    std::string G = hex.substr(2, 2);
+    std::string B = hex.substr(4, 2);
+    return std::stoi(B + G + R, 0, 16);
 }
 
 int setColor(std::vector<int> colors){
