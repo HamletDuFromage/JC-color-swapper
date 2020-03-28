@@ -78,6 +78,7 @@ int main(int argc, char* argv[])
     int nbPages = (nbItems/ENTRIESPERPAGE) + 1;
 
     int res = 0;
+    int done = 0;
 
     while (appletMainLoop())
     {
@@ -90,7 +91,6 @@ int main(int argc, char* argv[])
 
             std::cout << "*** Joy-Con color swapper v" << VERSION << " - By HamletDuFromage" << std::endl;
             std::cout << "* Select your desired profile with [UP]/[DOWN]|[LEFT]/[RIGHT] \n* Confirm with [A] \n* Press [B] to quit\n\n" << std::endl;
-
 
             res = 0; 
 
@@ -114,6 +114,7 @@ int main(int argc, char* argv[])
 
             if (kDown & KEY_A){
                 // SET COLOR
+                done = 0;
                 currentScreen = 1;
             }
 
@@ -122,11 +123,13 @@ int main(int argc, char* argv[])
         }
         else if (currentScreen == 1){
             std::cout << "Applying the " << colorProfiles[currentItem] << " color profile" << std::endl;
-            res = setColor(colorValues[currentItem]);
+            if(done == 0) res = setColor(colorValues[currentItem]);
+                
             std::cout << "\n\n" << std::endl;
             
             if(res == 0){
                 std::cout << "Successfully changed the Joy-Cons color!" << std::endl;
+                done = 1;
             }
             if(res == 1 || res == 3){
                 std::cout << "Couldn't change the left JC color" << std::endl;
