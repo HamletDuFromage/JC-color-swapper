@@ -9,11 +9,14 @@ A Nintendo Switch homebrew app to change the color of the Joy-Con controllers. C
 Copy the `JC-color-swapper` directory to `sdmc:/switch`
 
 ## Add custom themes
-You can add custom themes by editing `profiles.json`. You can add new entries and modify existing ones, just make sure that you're using the exact same formatting.
+You can add custom themes by editing `profiles.json`. You can add new entries and modify existing ones, just make sure that you're using the same formatting (hexadecimal values of length 6).
+
+## Creating custom themes
+Use my webpage to generate new profiles and add them too profiles.json
 
 
 ## Screenshots
 
-![main](https://user-images.githubusercontent.com/61667930/77806502-30ce2900-7085-11ea-9d1f-e495723c79c8.jpg)
+![main](https://user-images.githubusercontent.com/61667930/77942427-e2569f80-72bb-11ea-863d-24f877a24706.jpg)
 ![done](https://user-images.githubusercontent.com/61667930/77806503-3297ec80-7085-11ea-8bd5-41b6b93bf1f8.jpg)
 
