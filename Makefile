@@ -44,7 +44,7 @@ DATA		:=	data
 INCLUDES	:=	include
 APP_TITLE   :=  JC Color Swapper
 APP_AUTHOR  :=  HamletDuFromage
-APP_VERSION :=  1.1
+APP_VERSION :=  1.2
 #ROMFS	:=	romfs
 
 #---------------------------------------------------------------------------------
