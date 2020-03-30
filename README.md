@@ -12,7 +12,7 @@ Copy the `JC-color-swapper` directory to `sdmc:/switch`
 You can add custom themes by editing `profiles.json`. You can add new entries and modify existing ones, just make sure that you're using the same formatting (hexadecimal values of length 6).
 
 ## Creating custom themes
-Use my webpage to generate new profiles and add them too profiles.json : https://hamletdufromage.github.io/JCpicker.html
+Use my webpage to generate new profiles and add them to profiles.json : https://hamletdufromage.github.io/JCpicker.html
 
 
 ## Screenshots
