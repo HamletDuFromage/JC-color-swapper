@@ -1,3 +1,5 @@
+### Use my latest hombrew [All-In-One Switch Updater](https://github.com/HamletDuFromage/aio-switch-updater) for a more polished experience and the ability to change Pro Controllers colors
+
 <p align="center">
 <img src = "https://user-images.githubusercontent.com/61667930/77807590-97a11180-7088-11ea-9cc3-5c7baa0781bb.jpg"\>
 </p>
